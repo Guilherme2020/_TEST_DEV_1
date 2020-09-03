@@ -31,13 +31,14 @@ Run  in /src/app/server/  `json-server --watch api.json
 
 Run `ng serve`. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Running end-to-end tests
 
 Run `./node_modules/.bin/cypress open` or `npx open cypress` to execute tests e2e via [Cypress](https://www.cypress.io/).
+
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
