@@ -1,0 +1,50 @@
+{
+  "company": [
+    {
+      "id": 1,
+      "name": "FORD",
+      "segment": "vehicles",
+      "standardDeviation": 4.90
+    },
+    {
+      "id": 2,
+      "name": "CHEVROLET",
+      "segment": "vehicles",
+      "standardDeviation": 8.49
+    },
+    {
+      "id": 3,
+      "name": "FIAT",
+      "segment": "vehicles",
+      "standardDeviation": 4.08
+    },
+    {
+      "id": 4,
+      "name": "RENAULT",
+      "segment": "vehicles",
+      "standardDeviation": 7.87
+    },
+    {
+      "id": 5,
+      "name": "VOLKSWAGEN",
+      "segment": "vehicles",
+      "standardDeviation": 5.27
+    }
+  ],
+  "stock": [
+    {
+      "id": 1,
+      "price": 9000.00,
+      "priceDate": "10:05",
+      "companyId": 1
+    },
+    {
+      "id": 2,
+      "price": 5000.00,
+      "priceDate": "10:10",
+      "companyId": 1
+    }
+  ]
+
+}
+
