@@ -1,0 +1,29 @@
+.segment-style {
+  font-weight: bold;
+  color: black;
+}
+.card-style {
+  width: 100%;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+  0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+.card-style div {
+  padding: 10px;
+  line-height: 36px;
+
+  & h4{
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+.btn-get-company{
+  background: #1976d2;
+  height: 42px;
+  border: 2px solid #1976d2;
+
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+

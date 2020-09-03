@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-md-3 my-5 container-btn">
+    <button
+      (click)="loadCompany()"
+      class="btn-get-company"
+      type="button">
+        GET COMPANIES
+    </button>
+
+  </div>
+
+
+</div>
+
+<div *ngIf="companys" class="row d-flex">
+  <div class="col-md-3 my-4" *ngFor="let company of companys">
+    <div class="card-style" mdbWavesEffect>
+      <div>
+        <h4> Name: {{ company.name }}</h4>
+        <p class="segment-style">Segment: {{ company.segment }}</p>
+        <p> Deviation for quotes:  {{ company.standardDeviation }}</p>
+      </div>
+    </div>
+  </div>
+</div>
